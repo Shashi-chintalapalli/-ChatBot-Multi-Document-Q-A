@@ -6,7 +6,7 @@ langgraph
 streamlit
 langchain-groq
 langchain-core
-
+pypdf
 
 
 
