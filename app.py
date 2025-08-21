@@ -8,7 +8,7 @@ import os
 
 # Load API key
 load_dotenv()
-api = os.environ.get("gro_api_key")
+api = st.secrets["GROQ_API_KEY"]
 
 # Initialize Groq LLM
 llm = ChatGroq(model="llama-3.1-8b-instant", api_key=api)
